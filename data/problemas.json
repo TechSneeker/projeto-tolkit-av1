@@ -1,0 +1,27 @@
+[
+  {
+    "Identificador": "P1",
+    "Enunciado": "Ordenar n numeros",
+    "CategoriaCorreta": "tratavel"
+  },
+  {
+    "Identificador": "P2",
+    "Enunciado": "Verificar se cadeia contem 'a'",
+    "CategoriaCorreta": "tratavel"
+  },
+  {
+    "Identificador": "P3",
+    "Enunciado": "Satisfatibilidade booleana (SAT)",
+    "CategoriaCorreta": "intratavel"
+  },
+  {
+    "Identificador": "P4",
+    "Enunciado": "Caixeiro viajante exato",
+    "CategoriaCorreta": "intratavel"
+  },
+  {
+    "Identificador": "P5",
+    "Enunciado": "Problema da parada",
+    "CategoriaCorreta": "nao_computavel"
+  }
+]
