@@ -1,0 +1,27 @@
+[
+  {
+    "Identificador": "Q1",
+    "Enunciado": "Ordenar números",
+    "CategoriaCorreta": "problema"
+  },
+  {
+    "Identificador": "Q2",
+    "Enunciado": "[3, 1, 4]",
+    "CategoriaCorreta": "instancia"
+  },
+  {
+    "Identificador": "Q3",
+    "Enunciado": "Verificar número primo",
+    "CategoriaCorreta": "problema"
+  },
+  {
+    "Identificador": "Q4",
+    "Enunciado": "29",
+    "CategoriaCorreta": "instancia"
+  },
+  {
+    "Identificador": "Q5",
+    "Enunciado": "Decidir se cadeia termina com 'b'",
+    "CategoriaCorreta": "problema"
+  }
+]

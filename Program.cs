@@ -1,4 +1,5 @@
 using ConsoleApp1.functions;
+using System;
 
 bool emExecucao = true;
 
@@ -10,7 +11,12 @@ while (emExecucao)
     Console.WriteLine("3. Decisor: termina com 'b'?");
     Console.WriteLine("4. Avaliador proposicional: básico");
     Console.WriteLine("5. Reconhecedor: L_par_a e ab*");
-    Console.WriteLine("6. Sair");
+    Console.WriteLine("6. Classificador: Problema × Instância");
+    Console.WriteLine("7. Decisor: L_fim_b e L_mult3_b");
+    Console.WriteLine("8. Reconhecedor: que pode não terminar");
+    Console.WriteLine("9. Detector ingenûo: loop e reflexão ");
+    Console.WriteLine("10. Simulador: AFD ");
+    Console.WriteLine("0. Sair");
     Console.Write("Escolha uma opção: ");
     string opcao = Console.ReadLine() ?? string.Empty;
     switch (opcao)
@@ -37,6 +43,26 @@ while (emExecucao)
             ReconhecedorLinguagens.Reconhecer();
             break;
         case "6":
+            Utils.Limpar();
+            ClassificadorProblemaXInstancia.IniciarQuestionario();
+            break;
+        case "7":
+            Utils.Limpar();
+            DecisorLinguagens.Decidir();
+            break;
+        case "8":
+            Utils.Limpar();
+            ReconhecedorPodeNaoTerminar.Reconhecer();
+            break;
+        /*case "9":
+            Utils.Limpar();
+            ReconhecedorLinguagens.Reconhecer();
+            break;
+        case "10":
+            Utils.Limpar();
+            SimuladorAFD.Simular();
+            break;*/
+        case "11":
             emExecucao = false;
             break;
     }
