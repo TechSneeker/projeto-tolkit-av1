@@ -54,15 +54,15 @@ while (emExecucao)
             Utils.Limpar();
             ReconhecedorPodeNaoTerminar.Reconhecer();
             break;
-        /*case "9":
+        case "9":
             Utils.Limpar();
-            ReconhecedorLinguagens.Reconhecer();
+            DetectorLoop.Detectar();
             break;
         case "10":
             Utils.Limpar();
             SimuladorAFD.Simular();
-            break;*/
-        case "11":
+            break;
+        case "0":
             emExecucao = false;
             break;
     }

@@ -60,7 +60,7 @@ namespace ConsoleApp1.functions
 
                 if (passos >= limite)
                 {
-                    return "Limite de passos atingido, execução interrompida!)";
+                    return "(Limite de passos atingido, execução interrompida!)";
                 }
             }
         }

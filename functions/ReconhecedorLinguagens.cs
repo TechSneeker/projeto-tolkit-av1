@@ -2,6 +2,7 @@ using System;
 
 namespace ConsoleApp1.functions
 {
+    // Item 5 - Reconhecedor Σ={a,b}: L_par_a e ab*
     public static class ReconhecedorLinguagens
     {
         private static readonly string alfabeto = "ab";

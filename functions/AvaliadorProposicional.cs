@@ -2,7 +2,7 @@ using System;
 
 namespace ConsoleApp1.functions
 {
-
+    // Item 4 - Avaliador proposicional básico
     public static class AvaliadorProposicional
     {
         // Avalia fórmulas proposicionais sobre P, Q, R

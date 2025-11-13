@@ -1,7 +1,11 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Text.Json;
 
 namespace ConsoleApp1.functions
 {
+    // Representa um problema para classificação T/I/N
     public class Problema
     {
         public string Identificador { get; set; } = "";
@@ -9,16 +13,19 @@ namespace ConsoleApp1.functions
         public string CategoriaCorreta { get; set; } = "";
     }
 
+    // Representa a resposta do usuário para um problema
     public class Resposta
     {
         public Problema Problema { get; set; } = new Problema();
         public required string escolha;
     }
 
+    // Item 2 - Classificador T/I/N por JSON
     public static class ClassificadorTIN
     {
         private static readonly List<Resposta> Respostas = new List<Resposta>();
 
+        // Inicia questionário de classificação T/I/N
         public static void IniciarQuestionario()
         {
             Respostas.Clear();
@@ -106,7 +113,7 @@ namespace ConsoleApp1.functions
             };
         }
 
-        /// Carrega problemas do arquivo JSON
+        // Carrega problemas do arquivo JSON usando File.ReadAllText
         private static List<Problema> CarregarProblemas()
         {
             try

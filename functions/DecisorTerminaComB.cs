@@ -2,6 +2,7 @@ using System;
 
 namespace ConsoleApp1.functions
 {
+    // Item 3 - Programa de decisão: "termina com 'b'?"
     public static class DecisorTerminaComB
     {
         private static readonly string alfabeto = "ab";

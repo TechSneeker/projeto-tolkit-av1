@@ -2,7 +2,7 @@ using System;
 
 namespace ConsoleApp1.functions
 {
-
+    // Item 1 - Verificador de alfabeto e cadeia em Σ={a,b}
     public static class VerificadorAlfabeto
     {
         private static readonly string alfabeto = "ab";
